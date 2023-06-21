@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Pizza Ordering Site</title>
+        <link href="stylesheet.css" rel="stylesheet">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <main>
+            <h1>Chuck's Pizza</h1>
+            <p>Welcome to Chuck's Pizza, est. 2023. Come try our newest specialty pizzas, made fresh daily</p>
+
+            <div class="mainContent">
+              <section>
+                <div class="item">
+                  <h2>Pizzas</h2>
+                  <figure><img alt="Margharita Pizza" src="https://hips.hearstapps.com/hmg-prod/images/delish-homemade-pizza-horizontal-1542312378.png?crop=1xw:0.843328335832084xh;center,top&resize=1200:*"></figure>
+                  <figcaption>Margharita Pizza <strong>$10.99</strong></figcaption>
+                  <figure><img alt="Hawaiian Pizza" src="https://www.jessicagavin.com/wp-content/uploads/2020/07/hawaiian-pizza-16-1200.jpg"></figure>    
+                  <figcaption>Hawaiian Pizza <strong>$11.99</strong></figcaption>
+                  <figure><img src="https://nationaleventpros.com/wp-content/uploads/2017/04/ximage00-4.jpg.pagespeed.ic.qmErxW1qjK.jpg" alt="Build your Own Pizzas"></figure>
+                  <figcaption>Build Your Own <em>starting at </em><strong>$13.99</strong></figcaption>
+                </div>
+               </section>  
+               <section>
+                <div class="item">
+                  <h2 class="pastas">Pastas</h2>      
+                  <figure><img src="https://insanelygoodrecipes.com/wp-content/uploads/2021/12/Homemade-Rigatoni-Pasta-with-Ground-Beef-and-Tomatoes-800x530.jpg"></figure>
+                  <figcaption>Rigatoni <strong>$7.99</strong></figcaption>
+                  <figure><img src="https://challengedairy.com/sites/default/files/recipe/images/recipe_fettuccine_alfredo_2280.jpg"></figure>
+                  <figcaption>Fettucine Alfredo <strong>$8.99</strong></figcaption>
+                  <figure><img src="https://recipe30.com/wp-content/uploads/2022/03/Spaghetti-meatballs.jpg"></figure>
+                  <figcaption>Spaghetti and Meatballs <strong>$9.99</strong></figcaption>
+
+                </div>
+               
+              </section>
+              <div class="info">
+              <section class="locations">
+                <h3>Our Locations</h3>
+                <ul>
+                    <li>Nashville</li>
+                    <li>Bellevue</li>
+                    <li>Brentwood</li>
+                    <li>Franklin</li>
+                </ul>
+            </section>
+            
+              <section class="orderForm">
+                <h2 class="orderTitle">Order Here</h2>
+                <form>
+                    <fieldset>
+                        <legend class="orderInput">Size</legend>
+                        <input name="size" type="radio" id="small" value="9"><label for="small">Small</label><br>
+                        <input name="size" type="radio" id="medium" value="10"><label for="medium">Medium</label><br>
+                        <input name="size" type="radio" id="large" value="12"><label for="large">Large</label><br>
+                       
+                    </fieldset> 
+                    <fieldset>
+                        <legend class="orderInput">Choose your Toppings</legend>
+                        <input name="toppings" type="checkbox" id="cheese" value="cheese"><label for="cheese">Extra Cheese</label><br>
+                        <input name="toppings" type="checkbox" id="pepperoni" value="pepperoni"><label for="pepperoni">Pepperoni</label><br>
+                        <input name="toppings" type="checkbox" id="ham" value="ham"><label for="ham">Ham</label><br>
+                        <input name="toppings" type="checkbox" id="pineapple" value="pineapple"><label for="pineapple">Pineapple</label><br>
+                        <input name="toppings" type="checkbox" id="bacon" value="bacon"><label for="bacon">Bacon</label><br>
+                        <input name="toppings" type="checkbox" id="peppers" value="peppers"><label for="peppers">Bell Peppers</label><br>
+                        <input name="toppings" type="checkbox" id="sausage" value="sausage"><label for="sausage">Sausage</label><br>
+                        <input name="toppings" type="checkbox" id="olives" value="olives"><label for="olives">Olives</label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="orderInput">Address</legend>
+                        <div class="orderSection">
+                        <input class="addressHouse" type="textbox" placeholder="Address" id="addressHouse"><br>
+                        <input class="city" type="text" id="city" placeholder="City">
+                        <input type="text" class="state" id="state" placeholder="State" list="states">
+                            <datalist id="states">
+                                <option>AL</option>
+                                <option>AK</option>
+                                <option>AZ</option>
+                                <option>AR</option>
+                                <option>CA</option>
+                                <option>CO</option>
+                                <option>CN</option>
+                                <option>DE</option>
+                                <option>FL</option>
+                                <option>GA</option>
+                                <option>HA</option>
+                                <option>ID</option>
+                                <option>IL</option>
+                                <option>IN</option>
+                                <option>IO</option>
+                                <option>KA</option>
+                                <option>KY</option>
+                                <option>LO</option>
+                                <option>MR</option>
+                                <option>MA</option>
+                                <option>MS</option>
+                                <option>MI</option>
+                                <option>MN</option>
+                                <option>MI</option>
+                                <option>MO</option>
+                                <option>MT</option>
+                                <option>NE</option>
+                                <option>NV</option>
+                                <option>NH</option>
+                                <option>NJ</option>
+                                <option>NK</option>
+                                <option>NY</option>
+                                <option>NC</option>
+                                <option>ND</option>
+                                <option>OH</option>
+                                <option>OK</option>
+                                <option>OR</option>
+                                <option>PA</option>
+                                <option>RI</option>
+                                <option>SC</option>
+                                <option>SD</option>
+                                <option>TN</option>
+                                <option>TX</option>
+                                <option>UT</option>
+                                <option>VE</option>
+                                <option>VI</option>
+                                <option>WA</option>
+                                <option>WV</option>
+                                <option>WI</option>
+                                <option>WY</option>
+                                </datalist>
+                             <input class="zipcode" id="zipcode" placeholder="ZIP" type="text">  
+                             </div>      
+                    </fieldset>
+                    <fieldset>
+                        <legend class="orderInput">Payment</legend>
+                        <div class="orderSection">
+                        <input class="cardNumber" id="cardNumber" type="textbox" placeholder="Credit Card Number">
+                        <input class="expiration" id="expiration" type="textbox" placeholder="MM/YY">
+                        <input class="cvv" id="cvv" type="textbox" placeholder="CVV"><br>
+                    </div>
+                        <button type="submit" target="_blank">Place Order</button><br>
+                        <div class="linkContainer">
+                          <a target="_blank" href="https://www.dominos.com/en/">Track your order</a>  
+                        </div>
+                    </fieldset>     
+                    
+                </form>
+              </section>
+              </div>
+          </div>
+        </main>
+    </body>
+</html>

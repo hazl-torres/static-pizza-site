@@ -1,0 +1,117 @@
+h1 {
+    font-size:50px;
+    font-weight:bolder;
+    text-align: center;
+    background-color: #e8a599dc;
+    font-family:cursive;
+    padding-bottom: 20px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+.item, .orderForm {
+  display: inline-flexbox;
+  text-align: center;
+  background-color:rgb(245, 215, 213);
+  border: #d1897e solid 2px;
+}
+.item{
+  margin-right:75px;
+  padding-bottom: 20px;
+}
+
+p {
+    font-size:15px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -60px;
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/04/08/51/78/360_F_408517872_u7m4me8l83eenmUcsJ1ArSZymm5Unz4X.jpg);
+    font-family:sans-serif;
+    color: rgb(71, 28, 21);
+}
+
+  .locations, .orderForm {
+    text-align: left;
+    background-color: white;
+    width: 375px;
+    margin: auto;
+    padding: 15px;
+    border: #d1897e solid 2px;
+  }
+  .orderForm {
+    padding-bottom: 25px;
+  }
+
+  .locations {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+
+  }
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+
+  }
+  a {
+    color: #b4695d;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 0px;
+
+  }
+  .orderTitle, .orderInput, .linkContainer {
+    text-align: center;
+
+  }
+  button {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    margin-bottom:-10px;
+  }
+  fieldset {
+    margin-bottom: 10px
+  }
+
+
+  .expiration {
+    width: 45px;
+  }
+
+  .city {
+    margin-top: 3px;
+    width: 155px;
+
+  }
+.state, .zipcode {
+  width:60px;
+  margin-top:3px
+
+}
+.cardNumber {
+  width:195px;
+}
+  .cvv {
+    width: 35px;
+  }
+  .addressHouse {
+    width: 300px;
+  }
